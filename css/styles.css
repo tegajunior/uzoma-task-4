@@ -1,0 +1,520 @@
+
+/* general styles */
+body{
+    width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.row{
+    align-items: center;
+}
+
+/* _________header section_____ */
+.container{
+    /* padding: 0 0.2%; */
+}
+.active-link{
+    border-bottom: 2px solid #0A66C2;
+    padding-bottom: 0;
+}
+.nav-link{
+    margin-right: 1rem;
+    color: #0073B1;
+    font-weight: 500;
+    font-size: large;
+}
+
+.navbar-brand{
+    color: #0073B1;
+    font-weight: 700;
+    font-size: x-large;
+}
+.link-in-a-p:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #0A66C2;
+    padding-bottom: 0;
+    color: #0A66C2;
+
+}
+.nav-link:hover, .navbar-brand:hover{
+    border-bottom: 2px solid #0A66C2;
+    padding-bottom: 0;
+    color: #0A66C2;
+}
+#horizontal{
+    border-bottom: 2px solid #0A66C2;
+}
+/* _____section 2 _____*/
+.my-container{
+    margin-top: -1rem;
+    padding: 5% 5% 5% 10%;
+    width: 100%;
+}
+#section-2{
+    background-color: #E7EEF5;
+}
+#section-2-page2{
+    background-color:#E7EEF5 ;
+}
+.link-in-a-p{
+    color: #0073B1;
+    font-weight: 500;    
+}
+
+#section-2-page2{
+    padding-top: 5%;
+    padding-left: 9%;
+    padding-bottom: 5%;
+}
+#section-2-page2 p {
+    line-height: 1.5;
+}
+
+/* _____section-3_____ */
+.row{
+    align-items: center;
+    justify-content: space-between;
+}
+#section-3{
+    background-color: #FDFAF5;
+}
+
+.lighter-heading{
+    font-weight: lighter;
+}
+.first-col{
+    padding: 2% 5% 2% 5%;
+}
+#section-3-page2{
+    background-color: #C0D1E2;
+}
+#section-3-page2 .row{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#section-3-page2 .row .first-col > *{
+    margin-bottom: 5%;
+}
+.smaller-italics {
+    font-size: 15px;
+}
+ #section-3-page2 .row .first-col p{
+    line-height: 1.8rem;
+} 
+.typing-man{
+    height: 100%;
+}
+/* _______section-4_____ */
+#section-4{
+    padding-top: 5%;
+}
+.section-4-inner-div{
+    background-color: #F4FAFF;
+    padding: 5% 6%;
+}
+.section-4-inner-div > * {
+    margin-bottom: 1.5rem;
+}
+.link-in-a-p-no-hover{
+    color: #0073B1;
+    font-weight: 500; 
+}
+.bordered-p{
+    display: inline-block;
+    border: 1px solid #0073B1;
+    padding: .5rem;
+}
+.bordered-p:hover{
+    background-color: #DBEDF7;
+}
+.link-in-a-p-no-hover:hover{
+    text-decoration: none;
+}
+#section-4-page2 .row{
+    justify-content: stretch;
+    margin-bottom: 2%;
+}
+/* _____section-5________ */
+#section-5{
+    padding-top: 5%;
+}
+.to-big-for-mobile {
+    width: 70%;
+}
+/* ____section 6_______ */
+.section-6-text-holder{
+    margin: 5% 0;
+    width: 100%;
+}
+.section-6-text-holder a {
+    font-size: .95rem;
+    color: #000;
+}
+.section-6-text-holder a:hover{
+    text-decoration: none;
+}
+.section-6-link-holder{
+    color: #0073B1;
+}
+.section-6-link-holder:hover{
+    text-decoration: underline;
+    color: #0073B1;
+}
+#section-6 .row{
+    padding-bottom: 9%;
+    border-bottom: 2px solid #F5F5F5;
+}
+/*________ page 2 _____*/
+.section-6-explore{
+    color: #fff;
+    background-color: #0073B1;
+    padding: .6rem 1.5rem;
+    border-width: 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+.section-6-reduced-font{
+    line-height: 2.2;
+    font-size: 1.2rem;
+}
+#section-6-page2{
+    padding-bottom: 5%;
+}
+
+/* _section 7______ */
+#section-7{
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+#section-7 video{
+    max-width: 100%;
+    max-height: 100%;
+}
+#section-7 .row{
+    justify-content: space-between;
+}
+.work-from-home{
+    margin-bottom: 5%;
+}
+#section-7 .col-sm-6 p{
+    font-size: .95rem;
+}
+/* ___page 2______ */ 
+#section-7-page2 .row {
+    justify-content: center;
+}
+#section-7-page2{
+    background-color: #F0F0F0;
+    padding-bottom: 3%;
+}
+/* ____section 8_______ */
+#section-8{
+     background-color: #F3F2EF; 
+    padding-bottom: 5%;
+}
+.section-8-heading{
+    line-height: 1;
+}
+
+.section-8-buttons .explore{
+    border: 1px solid #0073B1;
+    color: #0073B1;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+.section-8-buttons .explore:hover{
+    background-color: #DBEDF7;
+}
+
+.section-8-buttons .upskill{
+    color: #fff;
+    font-weight: 500;
+    background-color: #0073B1;
+    padding: 8px 32px;
+    border-width: 0;
+}
+/* ______footer_______ */
+footer{
+    border-top: 2px solid lightgray;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 2% 0;
+}
+footer ul li a, footer ul li{
+    color: rgba(0, 0, 0, 0.55);
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 600;
+}
+footer ul li a:hover{
+    color: rgba(0, 0, 0, 0.55);
+}
+/* ______media query */
+
+@media (min-width: 600px)  and (max-width:770) {
+    footer ul li a, footer ul li{
+        /* line-height: 10px; */
+        font-size: 5px;
+    }
+    footer ul{
+        display:flex;
+        justify-content: space-between;
+    }
+    .flex-1{
+        order: 2;
+    }
+    .flex-2{
+        order: 3;
+    }
+    .flex-3{
+        order: 4;
+    }
+    .flex-4{
+        order: 5;
+    }
+    .flex-5{
+        order: 6;
+    }
+    .flex-6{
+        order: 1;
+    }
+    #section-4{
+        padding-bottom: 20px;
+    }
+    /* ______page 2_____ */
+    #section-4-page2 .row{
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+    }
+    #section-4-page2 .row > *{
+        flex-basis: 48%;
+    }
+    #section-5{
+        margin-top: -70px;
+    }
+    #section-6{
+        margin-top: -50px;
+        padding-bottom: -50px;
+    }
+    /* ______page 2_____ */
+    .reduce-margin{
+        margin-top: -70px;
+        margin-bottom: -70px;
+    }
+    #section-6-page2{
+        margin-top: -70px;
+    }
+    #section-7-page2{
+        margin-top: -50px;
+    }
+    #section-8{
+        margin-bottom: -100px;
+    }
+    .kids-playing img{
+        height: 100%;
+    }
+    .section-8-buttons .explore{
+        padding: 4px 7px;
+        font-size: small;
+    }
+    .section-8-buttons .upskill{
+        padding: 4px 7px;
+        font-size: small;
+    }
+}
+@media (min-width: 800px) {
+    .col-sm-6{
+        flex-basis: 47%;
+    }
+    .my-container{
+        padding: 2% 10%;
+    }
+    .my-container p{
+        line-height: 1.5rem;
+        font-size: 1.22rem;
+    }
+
+    .first-col{
+        padding-left: 0;
+    }
+    .section-4-inner-div .smaller-text{
+        font-size: 1.05rem;
+    }
+    #section-7 .row > *, #section-8 .row > *{
+        flex-basis: 47%;
+    }
+    .section-8-heading{
+        line-height: 3;
+    }
+    .section-8-para{
+        line-height: 1.5;
+    }
+    .section-8-buttons{
+        display: flex;
+        justify-content: stretch;
+    }
+    .section-8-buttons .explore{
+        border: 1px solid #0073B1;
+        color: #0073B1;
+        font-weight: 500;
+        padding: 8px 16px;
+        margin-right: 20px;
+    }   
+    .section-8-buttons .upskill{
+        color: #fff;
+        font-weight: 500;
+        background-color: #0073B1;
+        padding: 8px 32px;
+        border-width: 0;
+    }
+    footer ul{
+        display: flex;
+        justify-content: center;
+    }
+    footer ul > *{
+        padding: 10px;
+    }
+    .flex-1{
+        order: 2;
+    }
+    .flex-2{
+        order: 3;
+    }
+    .flex-3{
+        order: 4;
+    }
+    .flex-4{
+        order: 5;
+    }
+    .flex-5{
+        order: 6;
+    }
+    .flex-6{
+        order: 1;
+    }
+}
+footer ul li a, footer ul li{
+    color: rgba(0, 0, 0, 0.55);
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 600;
+}
+@media (max-width: 500px) {
+    .col-sm-6 h1{
+        margin-bottom: 7%;
+    }
+    .bordered-p{
+        margin: 0 auto;;
+    }
+    .section-4-inner-div{
+        margin-top: 20%;
+    }
+    .reduce-in-sm{
+        font-size: 1.3rem;
+    }
+    #section-5 h1 {
+        font-size: 2.0rem;
+    }
+    #section-5 {
+        padding: 15% 10%;;
+    }
+    .first-col h1{
+        font-size: 2.0rem;
+    }
+    .link-in-a-p-no-hover{
+        font-size: .9rem;
+    }
+    p.smaller-text{
+        font-size: .85rem;
+    }
+    .reduce-in-sm{
+        font-size: 1.15rem;
+    }
+    #section-6 .row{
+        padding-bottom: 20%;
+    }
+    #section-7 .row{
+        padding-top: 12%;
+    }
+    #section-7 .row .video-holder{
+        margin-bottom: 20px;
+    }
+    .work-from-home{
+        font-size: 19px;
+        font-weight: 400;
+    }
+    .section-8-heading{
+        line-height: 2;
+        font-size: 1.4rem;
+    }
+    #section-8 {
+        padding-bottom: 20%;
+    }
+
+    .kids-playing{
+        padding-top: 15px;
+    }
+
+    footer{
+        margin-top: 3%;
+    };
+    .explore{
+        display: block;
+        margin: 2px;
+    }
+    /* page 2 */
+    #section-2-page2{
+        margin-bottom: 5%;
+    }
+    .first-flex-item{
+        order: 1;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .second-flex-item{
+        order: 2;
+    }
+    #section-3-page2{
+        padding-top: 0;
+        padding-bottom: 12%;
+    }
+    .p-increased-line-height {
+        padding-bottom: 7%;
+    }
+    .smaller-italics-p {
+        margin-top: -20px;
+    }
+    #section-4-page2{
+        padding-top: 20%;
+    }
+    .col-sm-3{
+        padding-bottom: 10%;
+    }
+    .to-big-for-mobile{
+        width: 100%;
+        font-size: 2rem;
+    }
+    #section-6-page2{
+        padding-top: 13%;
+    }
+    #section-6-page2 .row .col-sm-6:last-of-type{
+        padding-top: 9%;
+    }
+    #section-7-page2{
+        padding-top: 20%;
+        padding-bottom: 15%;
+    }
+    #section-7-page2 .row .col-sm-4{
+        padding-bottom: 10%;
+    }
+    .to-big-for-mobile2{
+        font-size: 1.7rem;
+        margin-bottom: -20px;
+    }
+}
