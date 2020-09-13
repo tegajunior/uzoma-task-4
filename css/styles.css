@@ -105,6 +105,18 @@ img{
 .typing-man{
     height: 100%;
 }
+
+/* page 3 */
+#section-3-page3{
+    background-color: #F6FCF4;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#section-3-page3 .row{
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
 /* _______section-4_____ */
 #section-4{
     padding-top: 5%;
@@ -135,12 +147,61 @@ img{
     justify-content: stretch;
     margin-bottom: 2%;
 }
+/* ___page 3_____ */
+#section-4-page3{
+    background-color: #F5F5F5;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#section-4-page3 .row .col-sm-6 ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#section-4-page3 .row .col-sm-6 .page3-two-buttons-holder{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+#section-4-page3 .row{
+    justify-content: space-between;
+}
+#section-4-page3-img-holder{
+    text-align: end;
+}
+.btn1{
+    border-width: 0;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #0073B1;
+    padding: 5px 10px;
+}
+.btn2{
+    border-width: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    color: #0073B1;
+    padding: 5px 10px;
+    background-color: inherit;
+}
+.btn2:hover{
+    background-color: #C0D1E2;
+}
 /* _____section-5________ */
 #section-5{
     padding-top: 5%;
 }
 .to-big-for-mobile {
     width: 70%;
+}
+/* ___page 3_____ */
+#section-5-page3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #FAFAF9;    
+}
+.section-5-page3-first-row{
+    margin-bottom: 5%;
 }
 /* ____section 6_______ */
 .section-6-text-holder{
@@ -181,6 +242,12 @@ img{
 #section-6-page2{
     padding-bottom: 5%;
 }
+/* ____page-3_____ */
+#section-6-page3{
+ padding-top: 5%;
+ padding-bottom: 10%;
+ background-color: #F5F5F5;   
+}
 
 /* _section 7______ */
 #section-7{
@@ -200,6 +267,24 @@ img{
 #section-7 .col-sm-6 p{
     font-size: .95rem;
 }
+
+/* page 3 */
+
+.explore:hover{
+    background-color: #DBEDF7;
+}
+.explore{
+    border: 1px solid #0073B1;
+    color: #0073B1;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+#section-7-page3{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background-color: #FAFAF9;
+}
+
 /* ___page 2______ */ 
 #section-7-page2 .row {
     justify-content: center;
@@ -208,6 +293,7 @@ img{
     background-color: #F0F0F0;
     padding-bottom: 3%;
 }
+
 /* ____section 8_______ */
 #section-8{
      background-color: #F3F2EF; 
@@ -307,6 +393,13 @@ footer ul li a:hover{
         margin-top: -70px;
         margin-bottom: -70px;
     }
+    /* ___page 3____ */
+    #section-5-page3 .row{
+        align-items: stretch;
+    }
+    #section-5-page3 h1{
+        margin-bottom: 20px;
+    }
     #section-6-page2{
         margin-top: -70px;
     }
@@ -330,7 +423,7 @@ footer ul li a:hover{
 }
 @media (min-width: 800px) {
     .col-sm-6{
-        flex-basis: 47%;
+        flex-basis: 49%;
     }
     .my-container{
         padding: 2% 10%;
@@ -342,6 +435,39 @@ footer ul li a:hover{
 
     .first-col{
         padding-left: 0;
+    }
+    #section-3-page3 .row .col-sm-3{
+        text-align: end;
+    }
+    #section-5-page3 .row .col-sm-6 ul li{
+        line-height: 1.5;
+    }
+    #section-5-page3 .row .col-sm-6 ul {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    /* page 3 */
+    .s6-d-f{
+        display: flex;
+        justify-content: space-between;
+    }
+    .s6-d-f > * {
+        /* flex-basis: 43%; */
+    }
+    .s6-divs-holder{
+        order: 1;
+        flex-basis: 50%;
+
+    }
+    .s6-divs-holder p{
+        width: 100%;
+    }
+    .s6-img-holder img{
+        width: 75%;
+    }
+    .s6-img-holder{
+        order: 2;
+        text-align: end;
     }
     .section-4-inner-div .smaller-text{
         font-size: 1.05rem;
@@ -435,6 +561,10 @@ footer ul li a, footer ul li{
     }
     .reduce-in-sm{
         font-size: 1.15rem;
+    }
+    .h-reduce-m{
+        font-size: 2rem;
+        margin-bottom: 30px;
     }
     #section-6 .row{
         padding-bottom: 20%;
