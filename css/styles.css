@@ -11,8 +11,15 @@ img{
 }
 
 /* _________header section_____ */
-.container{
-    /* padding: 0 0.2%; */
+.navbar-brand-1 img{
+    width: 100px;
+    height: auto;
+}
+.navbar-brand{
+
+}
+.navbar{
+    
 }
 #header{
     padding: 10px 10%;
