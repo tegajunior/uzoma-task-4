@@ -187,6 +187,14 @@ img{
 .btn2:hover{
     background-color: #C0D1E2;
 }
+/* ___page 4___ */ 
+#section-4-page4{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+#section-4-page4 h1{
+    font-size: 2rem;
+}
 /* _____section-5________ */
 #section-5{
     padding-top: 5%;
@@ -202,6 +210,16 @@ img{
 }
 .section-5-page3-first-row{
     margin-bottom: 5%;
+}
+/* ____page 4 ____ */
+.shadow-img{
+    box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.3);
+}
+.dif-row{
+    align-items: stretch;
+}
+.dif-row .col-sm-6 p.lighter-heading{
+    font-size: .95rem;
 }
 /* ____section 6_______ */
 .section-6-text-holder{
@@ -294,6 +312,15 @@ img{
     padding-bottom: 3%;
 }
 
+/* _______page 4______ */
+#section-7-page4{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.overview-p{
+    font-size: smaller;
+}
+
 /* ____section 8_______ */
 #section-8{
      background-color: #F3F2EF; 
@@ -320,6 +347,16 @@ img{
     padding: 8px 32px;
     border-width: 0;
 }
+/* ____page 4_____ */
+#section-8-page4{
+    background-color: #FCF9F3;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#section-8-page4 .row .col-sm-9 p{
+    font-size: .97rem;
+}
+
 /* ______footer_______ */
 footer{
     border-top: 2px solid lightgray;
@@ -646,5 +683,27 @@ footer ul li a, footer ul li{
     .to-big-for-mobile2{
         font-size: 1.7rem;
         margin-bottom: -20px;
+    }
+    /* _____page 4_____ */
+    #section-4-page4 h1{
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    #section-5-page4 .row .col-sm-6, .s6-p4{
+        padding-bottom: 10%;
+    }
+    .s7-p4-1{
+        padding-top: 8%;
+        text-align: center;
+    }
+    #section-7-page4 .row .col-sm-8 h2 {
+        font-size: 1.8rem;
+        padding-top: 20%
+    }
+    #section-8-page4{
+        padding-bottom: 10%;
+    }
+    .s9-p4{
+        font-size: 1.8rem;
     }
 }
